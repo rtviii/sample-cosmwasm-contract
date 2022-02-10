@@ -1,0 +1,12 @@
+[package]
+name    = "cosmlibs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap            = "3.0.13"
+cosmwasm-std    = "0.16.3"
+cw-storage-plus = "0.11.1"
+serde           = "1.0.136"
